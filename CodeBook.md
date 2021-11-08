@@ -23,3 +23,14 @@ For each record in the dataset it is provided:
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## My Steps
+1. load packages: data.table, reshape2
+2. get the data downloaded
+3. load activity labels and features as "activityLabels" and "features" respectively
+4. extract only features contains "mean" and "std", and delete "()" in "featureName"
+5. load train datasets, combinded with subjects and activity
+6. load test datasets, combinded with subjects and activity
+7. merge two datasets
+8. convert classLabels to activityName
+9. write txt file
