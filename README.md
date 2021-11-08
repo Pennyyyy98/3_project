@@ -11,8 +11,8 @@ author: Peng Wu
 ## Review criteria
 |Goal|Item|Link|
 |:-:|:-:|:-:|
-|Analysis R script|run_analysis.R||
+|Analysis R script|run_analysis.R|[超链接显示名](超链接地址 "超链接title")|
 |Tidy data set|tidyData||
 |Github repo|Repo||
 |Code book|Codebook.md||
-|README|README.md||
+|README|README.md|[README](https://github.com/Pennyyyy98/3_project/blob/main/README.md)|
